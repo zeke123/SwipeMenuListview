@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/delete_list_item_bg"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@+id/rl_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16.5dp"
+        android:layout_marginRight="16.5dp" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:text="某某人"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="28.5dp"
+            android:layout_marginTop="10dp"
+            android:text="18696126835"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:layout_below="@id/rl_rl"
+        android:layout_marginLeft="16.5dp"
+        android:layout_marginRight="16.5dp" >
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:paddingRight="28.5dp"
+            android:text="某某人地址大师佛I昂多少积分你觉得付款了你骄傲的索科洛夫还记得拉升"
+            android:textColor="#000000"
+            android:textSize="13.5sp" />
+    </RelativeLayout>
+
+   
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CCCCCC" />
+
+</RelativeLayout>

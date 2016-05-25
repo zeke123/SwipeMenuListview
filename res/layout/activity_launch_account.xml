@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp" >
+
+    <LinearLayout
+        android:id="@+id/rl_ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:text="项目"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="49.5dp"
+            android:background="@drawable/launch_account_shape"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="安妮家兰亭悉元302"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_ll1"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:text="明细"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="49.5dp"
+            android:background="@drawable/launch_account_shape"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="水电阶段"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_ll3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_ll2"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:text="项目"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="168dp"
+            android:layout_height="49.5dp"
+            android:layout_weight="0.43"
+            android:background="@drawable/launch_account_shape"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:text="120000"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:text="元"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+			
+</RelativeLayout>
