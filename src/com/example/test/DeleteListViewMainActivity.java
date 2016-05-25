@@ -23,6 +23,9 @@ import android.widget.Toast;
 
 public class DeleteListViewMainActivity extends BaseActivity implements OnItemClickListener, OnClickListener,
         OnSlideListener {
+	
+	
+	
 
     private static final String TAG = "MainActivity";
 
