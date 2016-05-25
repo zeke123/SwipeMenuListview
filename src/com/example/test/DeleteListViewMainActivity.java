@@ -37,7 +37,8 @@ public class DeleteListViewMainActivity extends BaseActivity implements OnItemCl
 	}
 
 	@Override
-	public void initView() {
+	public void initView() 
+	{
 		mListView = (ListViewCompat) findViewById(R.id.listview);
 
 		for (int i = 0; i < 20; i++) {
