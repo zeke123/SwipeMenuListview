@@ -6,8 +6,6 @@ import java.util.List;
 import com.example.test.SlideView.OnSlideListener;
 import com.example.test.base.BaseActivity;
 
-import android.app.Activity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -16,7 +14,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +22,7 @@ public class DeleteListViewMainActivity extends BaseActivity implements
 
 	private static final String TAG = "MainActivity";
 
+	
 	private ListViewCompat mListView;
 
 	private List<MessageItem> mMessageItems = new ArrayList<DeleteListViewMainActivity.MessageItem>();
