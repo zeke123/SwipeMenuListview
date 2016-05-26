@@ -21,9 +21,6 @@ public class DeleteListViewMainActivity extends BaseActivity implements OnItemCl
 
 	private static final String TAG = "MainActivity";
 
-	
-	
-	
 	private ListViewCompat mListView;
 
 	private List<MessageItem> mMessageItems = new ArrayList<DeleteListViewMainActivity.MessageItem>();
